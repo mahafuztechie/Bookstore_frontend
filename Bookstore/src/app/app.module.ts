@@ -9,16 +9,21 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatRadioModule } from '@angular/material/radio';
+import { LoginComponent } from './components/login/login.component';
+import { ForgotPassComponent } from './components/forgot-pass/forgot-pass.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent,
+    ForgotPassComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule, FormsModule, ReactiveFormsModule, MatRadioModule, HttpClientModule
+    BrowserAnimationsModule, FormsModule, ReactiveFormsModule, MatRadioModule, HttpClientModule, MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
