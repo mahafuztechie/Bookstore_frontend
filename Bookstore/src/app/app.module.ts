@@ -12,13 +12,15 @@ import { MatRadioModule } from '@angular/material/radio';
 import { LoginComponent } from './components/login/login.component';
 import { ForgotPassComponent } from './components/forgot-pass/forgot-pass.component';
 import { MatCardModule } from '@angular/material/card';
+import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    ForgotPassComponent
+    ForgotPassComponent,
+    ResetPassComponent
   ],
   imports: [
     BrowserModule,

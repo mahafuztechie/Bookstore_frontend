@@ -16,12 +16,4 @@ export class ForgotPassComponent implements OnInit {
       email: ['', [Validators.required, Validators.email]],
     });
   }
-  // onSubmit() {
-  //   let data = { email: this.forgotForm.value.email }
-  //   this.user.forget(data).subscribe((res: any) => {
-  //     console.log(res);
-  //   })
-
-  // }
-
 }
